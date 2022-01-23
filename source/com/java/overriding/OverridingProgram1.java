@@ -1,9 +1,9 @@
 package com.java.overriding;
 
-//A Simple Java program to demonstrate
-//method overriding in java
+// A Simple Java program to demonstrate
+// method overriding in java
 
-//Base Class
+// Base Class
 class Parent {
 	void show()
 	{
@@ -11,7 +11,7 @@ class Parent {
 	}
 }
 
-//Inherited class
+// Inherited class
 class Child extends Parent {
 	// This method overrides show() of Parent
 	@Override
@@ -21,7 +21,7 @@ class Child extends Parent {
 	}
 }
 
-//Driver class
+// Driver class
 class OverridingProgram1 {
 	public static void main(String[] args)
 	{
@@ -39,4 +39,3 @@ class OverridingProgram1 {
 		obj2.show();
 	}
 }
-
